@@ -1,5 +1,13 @@
 # PayPal Payment Integration in Spring Boot MVC
 
+
+![pay1](https://github.com/user-attachments/assets/5649b410-06ab-4c34-8f7e-d22b65a2ba25)
+
+![pay2](https://github.com/user-attachments/assets/72a60eef-f77c-4f05-8a22-07ec3565476c)
+
+![pay3](https://github.com/user-attachments/assets/6f47772f-82a4-40da-aad9-5c6ca1ade68b)
+
+
 This project demonstrates how to integrate PayPal payment functionality into a Spring Boot MVC application using Thymeleaf for the front end. The application allows users to create and execute payments through PayPal, with a user-friendly interface built using HTML, CSS, JavaScript, and Bootstrap.
 
 ## Features
