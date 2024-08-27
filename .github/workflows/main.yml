@@ -34,7 +34,7 @@ jobs:
           mvn clean
           mvn -B package --file pom.xml
       - name: Debug Tag
-        run: echo ' Tag ${{ secrets.DOCKER_USERNAME }}/paypal-integration:latest'
+        run: echo ' Tag ${{ secrets.DOCKER_HUB_USERNAME }}/paypal-integration:latest'
 
 
       - name: Build Docker Image
@@ -57,4 +57,4 @@ jobs:
           context: .
           dockerfile: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/paypal-integration:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/paypal-integration:latest
